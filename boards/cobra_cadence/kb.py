@@ -13,7 +13,7 @@ class KMKKeyboard(_KMKKeyboard):
     data_pin2 = board.D6
 
     coord_mapping = [
-        0,                                      24,
+         0,                                     24,
          5,  1,  2,  3,  4,     20, 21, 22, 23, 29,
         10,  6,  7,  8,             26, 27, 28, 34,
         15, 11, 12, 13,  9,     25, 31, 32, 33, 39,
