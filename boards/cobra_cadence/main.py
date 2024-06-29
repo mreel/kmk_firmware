@@ -57,7 +57,7 @@ O_ROPT = KC.HT(KC.O, KC.RALT, prefer_hold=False)
 H_RCTL = KC.HT(KC.H, KC.RCTL, prefer_hold=False)
 
 ### Layers
-SPC_NUM = KC.HT(KC.SPC, KC.TT(NUM))
+SPC_NUM = KC.HT(KC.SPC, KC.MO(NUM))
 ENT_NAV = KC.LT(NAV, KC.ENT)
 BSPC_SM = KC.LT(SYM, KC.BSPC)
 DEL_FUN = KC.LT(FUN, KC.DEL)
